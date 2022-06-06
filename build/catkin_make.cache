@@ -1,0 +1,2 @@
+assignment1:assignment2:xycar_msgs:xycar_sim_parking
+-DCATKIN_DEVEL_PREFIX=/home/seunggeon/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/seunggeon/catkin_ws/install -G Unix Makefiles

@@ -1,0 +1,8 @@
+prefix=/home/seunggeon/catkin_ws/install
+
+Name: assignment2
+Description: Description of assignment2
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
