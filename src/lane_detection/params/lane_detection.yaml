@@ -1,0 +1,27 @@
+# params/lane_detection.yaml
+# Common parameters for lane detection
+---
+
+# Dynamic parameters cannot have a namespace
+left_upper_x_pos: 214
+left_upper_y_pos: 300
+right_upper_x_pos: 433
+right_upper_y_pos: 300
+left_lower_x_pos: 0
+left_lower_y_pos: 412
+right_lower_x_pos: 640
+right_lower_y_pos: 414
+yellow_h_low: 15
+yellow_h_high: 50
+yellow_l_low: 100
+yellow_l_high: 230
+yellow_s_low: 100
+yellow_s_high: 255
+white_h_low: 0
+white_h_high: 170
+white_l_low: 100
+white_l_high: 255
+white_s_low: 0
+white_s_high: 255
+
+ref_line_x: 320

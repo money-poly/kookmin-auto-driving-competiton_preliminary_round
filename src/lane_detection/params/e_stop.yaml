@@ -1,0 +1,9 @@
+# params/e_stop.yaml
+# Common parameters for Emergency Stop
+---
+
+# Dynamic parameters cannot have a namespace
+e_stop_min_angle_deg:       -10
+e_stop_max_angle_deg:       10
+e_stop_distance_meter:      1.0
+e_stop_count:               5

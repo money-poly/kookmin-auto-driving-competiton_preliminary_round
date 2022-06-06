@@ -1,0 +1,8 @@
+# params/control.yaml
+# Common parameters for lane detection
+---
+
+# Dynamic parameters cannot have a namespace
+base_speed:       1.0
+speed_gain:       0.3
+min_speed:        1.0

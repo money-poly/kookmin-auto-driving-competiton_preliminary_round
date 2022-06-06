@@ -1,0 +1,9 @@
+<launch>
+   <node name="steering_node" pkg="lane_detection" type="steering_publisher.py" output="screen">
+      <rosparam file="$(find lane_detection)/params/lane_detection.yaml" command="load" />
+   </node>
+   <node name="object_detector" pkg="lane_detection" type="e_stop.py" output="log">
+      <rosparam file="$(find lane_detection)/params/e_stop.yaml" command="load" />
+   </node>
+</launch> 
+
